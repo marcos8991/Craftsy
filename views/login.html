@@ -7,7 +7,60 @@
     <title>Craftsy Login</title>
     <link rel="stylesheet" href="/css/styles.css">
 </head>
-<body>
-    
+<body class="login">
+    <header>
+
+        <div><a href=""><img src="/images/logo.png" alt=""></a></div>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="">smarphones</a></li>
+                <li><a href="">tablets</a></li>
+                <li><a href="">computadoras</a></li>   
+            </ul>
+
+            <ul class="usuario">
+                <li><a href="">login</a></li>
+                <li><a href="">register</a></li>  
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <div class="formulario">
+            <h2>Bienvenido</h2>
+            <form action="" method="POST">
+                <div class="box-form">
+                    <label for="email">email</label>
+                    <input type="email" placeholder="email@empresa.com" id="email" name="email" >
+
+
+                </div>
+
+                <div class="box-form">
+
+                    <label for="pass">contraseña</label>
+                    <input type="password" placeholder="tu contraseña" id="pass" name="pass">
+                </div>
+
+                <div class="box-check">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">recordame</label>
+
+                </div>
+
+                <div class="box-error">
+                    <span>la combinacion de ingresada de email y contraseña no es valida</span>
+                </div>
+
+                <button type="submit">ingresar</button>
+            </form>
+
+        </div>
+        
+
+
+    </main>
 </body>
 </html>
